@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1F1F1F;
+    overflow-x: hidden;
+}
+
+h1{
+    font: bold 38px "Noto Sans", sans-serif;
+    color: white;
+}
+
+
+h2{
+    font: bold 36px "Noto Sans", sans-serif;
+    color: white;
+}
+
+h3{
+    font: 600 26px "Noto Sans", sans-serif;
+    color: white;
+
+}
+
+p{
+    font: 400 22px "Noto Sans", sans-serif; 
+    color: #B4B4B4;
+}
+
+h4 {
+    font: 700 160px "Noto Sans", sans-serif;
+    color: rgba(222,222,222, 0);
+    background-color: rgba(222,222,222, 0);
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: #626262; 
+    z-index: -100;
+    text-transform: uppercase;
+}
+
+/* Section Header */
+
+.header{
+    border: dashed 2px #B4B4B4;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 85px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    width: 22%;
+}
+
+nav ul li{
+    color: #ADADAD;
+    list-style: none;
+    font: 400 20px "Noto Sans", sans-serif;
+    cursor: pointer;
+    padding: 0px 10px;
+    user-select: none;
+}
+
+nav ul li:hover{
+    color: white;
+}
+
+nav ul li:first-child{
+    color: white;
+}
+
+.header .content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    position: relative;
+}
+
+.header .content .text {
+    margin: 5% 10% 12% 10%;
+    width: 40%;
+    padding: 20px 20px 0px 20px;
+    z-index: 100;
+}
+
+.header .content .text p,h1{
+    margin: 20px;
+}
+
+.header .content .text button{
+    margin:20px 20px 0px 20px;
+}
+
+
+button{
+    background-color: #313131;
+    border: none;
+    color: #DEDEDE;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font: 500 20px "Noto Sans", sans-serif;
+    cursor: pointer;
+}
+
+button:hover {
+
+    transition-duration: 0.4s;
+    transform: scale(1.05);
+}
+
+.header .content .img{
+    position: absolute;
+    right: 0%;
+    bottom: -2%;
+    z-index: 10;
+}
+
+.header .content .img img{
+    width: 500px;
+}
+
+.header .content2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .content2 .info{
+    position: relative;
+    background-color: #313131;
+    z-index: 20;
+    border-radius: 6px;
+    padding: 20px 25px;
+    padding-left: 170px;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header .content2 .info .text p,h2{
+    background-color: #313131;
+}
+
+.header .content2 .info img{
+    background-color: rgba(182, 233, 222, 0);
+    z-index: 22;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    padding: 10px;
+}
+
+.ligne{
+    border-top: 3px solid #343434;
+    width: 58%;
+}
+
+.header .content3{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .content3 .sponsor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #313131;
+    border-radius: 6px;
+    padding: 20px 125px;
+    width: 70%;
+    margin-top: 40px;
+}
+
+.header .content3 .sponsor img{
+    background-color: #313131;
+    width: 20%;
+    margin: 0px 20px;
+
+}
+
+.header .content3 .ligne{
+    margin-top: 40px;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+
+
+/* Section Why-us */
+
+.why-us{    
+    margin: 150px 0px;
+}
+
+.title-container{
+    position: relative;
+}
+
+.ligne-section {
+    border: 1px solid;
+    color: #3C3C3C;
+}
+
+.why-us h2{
+    background-color: #1F1F1F;
+    padding: 0px 20px;
+}
+
+.why-us .title{
+    background-color: rgba(222, 222, 222, 0);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.why-us .content{
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: 100px auto;
+}
+
+.why-us .content h5{
+    font: 600 28px "Noto Sans", sans-serif;
+    background-color: #313131;
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+.why-us .content p{
+    font: 300 18px "Noto Sans", sans-serif;
+    background-color: #313131;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+
+}
+
+.why-us .content .box img{
+    z-index: 100;
+    background-color: #4D4D4D;
+    width: 25px;
+    height: 25px;
+    padding: 15px;
+    border-radius: 110px;
+    position: absolute;
+    top: -10%;
+    left: 5%;
+
+}
+
+.why-us .content .box{
+    position: relative;
+    padding: 20px;
+    margin: 60px 10px;
+    background-color: #313131;
+    width: 30vw;
+    height: 150px;
+    border-radius: 10px;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+
+
+/* Section Champions*/
+
+.champions .title{
+    background-color: rgba(222, 222, 222, 0);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -60%);
+}
+
+
+.champions h2{
+    position: absolute;
+    background-color: #1F1F1F;
+    padding: 0px 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.champions .content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin: 30px 0px 10px 0px;
+}
+
+.champions .content img{
+    object-fit: contain; /* Empêche l'étirement de l'image */
+    height: 100%;
+}
+
+.champions .content .card-group{
+    padding: 10px;
+    width: 60%;
+}
+
+.champions .content .card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px 0px 30px 0px;
+    background-color: #313131;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.champions .content .card .name {
+    display: flex;
+    align-items: center;
+    background-color: #313131;
+}
+
+.champions .content .card .name h5{
+    margin-right: 10px;
+    font: 600 28px "Noto Sans", sans-serif;
+    color: white;
+    background-color: #313131;
+
+}
+
+.champions .content .card .name p{
+    font: 400 22px "Noto Sans", sans-serif;
+    background-color: #313131;
+}
+
+.champions .content .card p{
+    font: 300 18px "Noto Sans", sans-serif;
+    background-color: #313131;
+}
+
+.champions .content .card p.pays{
+    font: 300 20px "Noto Sans", sans-serif;
+    padding-bottom: 10px;
+    color: #656565;
+    background-color: #313131;
+}
+
+
+.champions .content .card img{
+    width: 12vw;
+    background-color: #313131;
+    margin-right: 20px;
+    filter: grayscale(60%);
+}
+
+/*----------------------------------------------------------------------------------------------*/
+
+
+/* Section Replays */
+
+.replays{
+    margin-top: 120px;
+}
+
+.replays .title{
+    background-color: rgba(222, 222, 222, 0);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -60%);
+}
+
+
+.replays h2{
+    position: absolute;
+    background-color: #1F1F1F;
+    padding: 0px 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.replays .espace {
+    margin: 140px 0px;
+}
+.replays .card-group {
+    display: flex; 
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.replays .card-group h5{
+    padding: 5px;
+    font: 600 23px "Noto Sans", sans-serif;
+    color: white;
+    background-color: #313131;
+
+}
+
+.replays .card-group p{
+    padding: 5px;
+    font: 300 18px "Noto Sans", sans-serif;
+    color: #6F6F6F;
+    background-color: #313131;
+}
+
+
+.replays .card{
+    display: flex;
+    width: 40%;
+    background-color: #313131;
+    margin: 0px 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.replays .card img{
+    margin-right: 20px;
+    object-fit: contain;
+    background-color: #313131;
+}
+
+.replays .view-all{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px ;
+}
+
+
